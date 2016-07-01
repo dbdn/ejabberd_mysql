@@ -1,0 +1,12 @@
+{application, ejabberd_mysql,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ejabberd_mysql_app, []}},
+  {env, []}
+ ]}.
